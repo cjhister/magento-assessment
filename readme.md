@@ -23,7 +23,7 @@ If you are unfamiliar with Travis, basically you need a composer auth.json file 
 ___
 ### How to submit?
 
-Create a pull request from a branch named `assessment/<your_name>` so the diff of your contributions can be reviewed. Please edit this instructions on how I can run your code and manually test it.
+Create a pull request from a branch named `assessment/<your_name>` so the diff of your contributions can be reviewed. Please edit the instructions on how I can run your code and manually test it.
 
 ___
 ### What am I being assessed for?
