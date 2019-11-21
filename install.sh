@@ -6,7 +6,7 @@ composer install;
 
 # Install Magento
 _user="admin"
-_pw="$(echo $RANDOM | md5sum | cut -c1-8)"
+_pw="password"
 
 ./bin/magento setup:install \
     --admin-firstname="denzel" \

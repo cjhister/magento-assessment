@@ -1,0 +1,25 @@
+{
+  "name": "Assessment/SimpleQueue",
+  "description": "Simple Message Queue Code Assessment",
+  "require": {
+    "php": ">=7.0"
+  },
+  "license": [
+    "MIT"
+  ],
+  "type": "magento2-module",
+  "version": "0.1.0",
+  "authors": [
+    {
+      "name": "Assessment"
+    }
+  ],
+  "autoload": {
+    "files": [
+      "registration.php"
+    ],
+    "psr-4": {
+      "Assessment\\SimpleQueue\\": ""
+    }
+  }
+}

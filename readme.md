@@ -34,4 +34,15 @@ To be very transparent, attention to detail and thoroughness are the most sought
 On the other hand, this is only an assessment and this code will never reach a production environment. Your time is valuable and very much appreciated. If you can cut a corner and save upwards of 20-30 minutes, write a comment on why you did what you did and how it could be better if you had more time.
 ___
 ### Instructions:
-Add step by step instructions here on how to mindlessly walk through your module.
+
+###### How to install Assessment_SimpleQueue module
+ 
+1. Run the following command in you CLI - bin/magento module:enable Assessment_SimpleQueue
+2. Run the following command in you CLI - bin/magento setup:upgrade
+3. Run the following command in you CLI - bin/magento setup:di:compile
+
+###### How to use Assessment_SimpleQueue message queue 
+
+1. In your CLI run the following command - bin/magento queue:consumers:start logSkuConsumer
+
+
